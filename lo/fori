@@ -1,0 +1,16 @@
+#include <iostream>
+
+int main(void)
+
+{
+
+int i,a,b;
+std::cout<<"a=";
+std::cin>>a;
+std::cout<<" b=";
+std::cin>>b;
+if (a>b) {i=b;b=a;} else i=a;
+for (i=i; ;i%=b ) b=i;
+
+
+}
